@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Knewave-Regular;
+    src: url('Knewave-Regular.ttf');
+}
+
+body{
+    background-image: url(1682988.jpg);
+    background-size: 100%;
+}
+
+h1{
+    font-size: 36px;
+    font-family: Knewave-Regular;
+    margin-left: 50%;
+    margin-top: 20%;
+    color: white;
+    border-bottom: solid 1px white;
+    padding-bottom: 0.5px;
+    width: 31%;
+    font-weight: bold;
+}
+
+h1::first-letter{
+    font-size: 45px;
+}
+
+.navbar{
+    background-color: none;
+    width: 60%;
+    margin-left: 35%;
+    margin-top: 8%;
+}
+
+button{
+    width: 15%;
+    margin-left: 4%;
+    border: none;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    font-family: Knewave-Regular;
+    font-size: 20px;
+}
+
+button:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}

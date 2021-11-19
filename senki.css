@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Knewave-Regular;
+    src: url('Knewave-Regular.ttf');
+}
+
+body{
+    background-image: url(senkihatter.jpg);
+    background-size: 100%;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color:white;
+}
