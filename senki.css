@@ -10,29 +10,44 @@
 
 body{
     background-image: url(senkihatter.jpg);
-    background-size: 120%;
+    background-size: 130%;
 }
 
 h1{
     color: white;
     font-family: rubik-italic-variablefont_wght;
     text-align: center;
-    margin-top: 20%;
-
+    margin-top: 10%;
+    opacity: 1;
 }
 
 h2{
     color:white;
     font-family: rubik-italic-variablefont_wght;
     text-align: center;
+    opacity: 1;
 }
 
 img{
-    width: 400px;
-    height: 300px;
-    margin-left: 35%;
+    width: 700px;
+    height: 450px;
+    margin-left: 22%;
     margin-top: 1%;
     border: black 3px solid;
     border-radius: 8px;
     transition: 0.7s;
+    position: relative;
+    opacity: 1;
+}
+
+.fedes{
+    margin-top: 1.2%;
+    margin-left: -54.9%;
+    position: absolute;
+    opacity: 0;
+    border: none;
+}
+
+.fedes:hover{
+    opacity: 1;
 }
