@@ -3,15 +3,36 @@
     src: url('Knewave-Regular.ttf');
 }
 
+@font-face {
+    font-family: rubik-italic-variablefont_wght;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
 body{
     background-image: url(senkihatter.jpg);
-    background-size: 100%;
+    background-size: 120%;
 }
 
 h1{
     color: white;
+    font-family: rubik-italic-variablefont_wght;
+    text-align: center;
+    margin-top: 20%;
+
 }
 
 h2{
     color:white;
+    font-family: rubik-italic-variablefont_wght;
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+    margin-left: 35%;
+    margin-top: 1%;
+    border: black 3px solid;
+    border-radius: 8px;
+    transition: 0.7s;
 }
