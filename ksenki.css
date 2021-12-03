@@ -1,0 +1,40 @@
+@font-face {
+    font-family: rubik-italic-variablefont_whtg;
+    src: url('Rubik-Italic-VariableFont_wght.ttf');
+}
+
+
+body, html{
+    background-size: 125%;
+    height: 100%;
+    background-image: url('ksenkihatter.jpg');
+    background-repeat: no-repeat;
+}
+
+#animation{
+    width: 600px;
+    height: 350px;
+    color: black;
+    font-family: rubik-italic-variablefont_whtg;
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 1%;
+    line-height: 150%;
+    animation-name: animation;
+    position: relative;
+    animation-name: kocka;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes kocka {
+    0%   {left:0px; top:0px;}
+    25%  {left:500px; top:0px;}
+    50%  {left:500px; top:500px;}
+    75%  {left:0px; top:500px;}
+    100%  {left:0px; top:0px;}
+}
